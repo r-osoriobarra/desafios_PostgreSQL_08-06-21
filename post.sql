@@ -50,6 +50,7 @@ VALUES('Carlos', now(), 'Segundo post de Carlos', 'Hola, volví', 'Título 6');
 -- --PARTE 2
 --1. Crear una nueva tabla llamada “comentarios”, con los atributos id, fecha, hora de creación y contenido, que se relacione con la tabla posts.
 CREATE TABLE comentarios(
+    id SERIAL PRIMARY KEY,
     id_post INT, 
     fecha DATE, 
     hora TIME, 
