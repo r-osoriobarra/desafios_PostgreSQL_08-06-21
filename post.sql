@@ -1,5 +1,6 @@
 -- Desafio Operaciones en una tabla
-DROP DATABASE posts;
+--DROP DATABASE posts;
+
 --PARTE 1
 -- 1. Crear una base de datos con nombre “Posts”
 CREATE DATABASE Posts;
